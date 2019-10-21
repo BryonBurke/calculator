@@ -10,7 +10,8 @@ var obj = {
   }
 };
 
-
-jQuery("h1").click(obj.h1Click);
-jQuery("img").click(obj.imgClick);
-jQuery("p").click(obj.pClick);
+$(function() {
+  $("h1").click(obj.h1Click);
+  $("img").click(obj.imgClick);
+  $("p").click(obj.pClick);
+})
